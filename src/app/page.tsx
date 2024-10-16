@@ -37,7 +37,7 @@ export default function Home() {
         <div className="flex justify-center mb-8">
           <Image src={Logo}  alt="Logo" width={80} height={80} className="rounded-full" />
         </div>
-        {/* <h1 className="text-2xl font-bold text-center mb-6">Login</h1> */}
+         <h1 className="text-2xl font-bold text-center mb-6">Portal do Cliente</h1> 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <Label htmlFor="email">Usuário</Label>
