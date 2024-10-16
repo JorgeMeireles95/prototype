@@ -12,7 +12,7 @@ const trackingSteps = [
 ];
 
 const ProgressVertical = () => {
-  const [hoveredStep, setHoveredStep] = useState(null);
+  const [hoveredStep, setHoveredStep] = useState<number | null>(null);
 
   return (
     <div className="tracking-container">
